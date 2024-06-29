@@ -11,6 +11,9 @@
     height: 100%;
     background: #1a1a2e; /* Dark night sky */
     background-image: url('https://img.freepik.com/premium-vector/t20-world-cup-logo-official-vector-white_704155-13.jpg'); /* Optional: starry night background */
+    background-size: cover; /* Ensure the background image covers the entire element */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
     color: #e3dccb; /* Parchment-like light cream for better readability */
     font-family: 'Roboto Slab', serif;
     position: relative;
