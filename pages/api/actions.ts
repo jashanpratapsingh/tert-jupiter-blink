@@ -138,6 +138,10 @@ export default function handler(
             "href": "/api/getReading"
         },
         {
+          "label": "South Africa", // button text
+        "href": "/api/getReading"
+      },
+        {
             "label": "Donate", // button text
             "href": "/api/donate?amount={amount}", // or /api/donate?amount={amount}
             "parameters": [
