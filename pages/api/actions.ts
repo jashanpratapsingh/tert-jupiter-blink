@@ -57,7 +57,7 @@ export default function handler(
   res.status(200).json({ 
     "title": "World Cup winner Prediction",
     "icon": "https://shdw-drive.genesysgo.net/G1Tzt42SDqCV3x9vPY5X826foA8fEk8BR4bB5wARh75d/orb2.PNG",
-    "description": "Ask the Orb for answers to your question. Donate SOL to the Orb.",
+    "description": "Predict the winner of the world cup to win goodies",
     "label": "Ask",
     "links": {
         "actions": [
