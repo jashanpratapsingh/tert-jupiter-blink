@@ -176,7 +176,7 @@ function updateCanvasGlow(ctx: CanvasRenderingContext2D, hexagram: LineType[]) {
     <>
       <Head>
         <meta charSet="UTF-8" />
-        <title>Ask the Orb</title>
+        <title>Predict the Winner</title>
         <link rel="stylesheet" href="styles.css" />
       </Head>
       <main id={styles.main}>
