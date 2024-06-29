@@ -55,7 +55,7 @@ export default function handler(
 ) {
   if (req.method === 'OPTIONS') {
   res.status(200).json({ 
-    "title": "Orb Reading",
+    "title": "World Cup winner Prediction",
     "icon": "https://shdw-drive.genesysgo.net/G1Tzt42SDqCV3x9vPY5X826foA8fEk8BR4bB5wARh75d/orb2.PNG",
     "description": "Ask the Orb for answers to your question. Donate SOL to the Orb.",
     "label": "Ask",
@@ -70,7 +70,7 @@ export default function handler(
         //     "href": "/api/hello"
         // },
         {
-            "label": "Donate", // button text
+            "label": "Bet", // button text
             "href": "/api/donate?amount={amount}", // or /api/donate?amount={amount}
             "parameters": [
               // {amount} input field

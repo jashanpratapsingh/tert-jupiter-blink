@@ -35,7 +35,7 @@ export default async function handler(
       const serializedTransaction = transaction.serialize({requireAllSignatures: false});
       const txString = serializedTransaction.toString('base64')
 
-      res.status(200).json({ transaction: txString, message: `Thanks for your ${req.query.amount} SOL donation to the Orb! 🔮` });   
+      res.status(200).json({ transaction: txString, message: `Thanks for betting ${req.query.amount} SOL towards your team! 🔮` });   
       return res;
     } else if (req.method == 'GET') {
       return res.status(200).end();
