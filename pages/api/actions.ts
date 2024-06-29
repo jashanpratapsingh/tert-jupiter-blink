@@ -76,7 +76,7 @@ export default function handler(
               // {amount} input field
               {
                 "name": "amount", // input field name
-                "label": "SOL Donation" // text input placeholder
+                "label": "Donate SOL" // text input placeholder
               }
             ]
           }
@@ -90,10 +90,10 @@ export default function handler(
   console.log(decodedData);
 
   res.status(200).json({ 
-    "title": "Orb",
+    "title": "CupCast",
     "icon": "https://shdw-drive.genesysgo.net/G1Tzt42SDqCV3x9vPY5X826foA8fEk8BR4bB5wARh75d/orb2.PNG",
-    "description": "Ask the Orb for answers to your question. Donate SOL to the Orb.",
-    "label": "Ask",
+    "description": "Predict the winner of the world cup, and win giveaways",
+    "label": "Predict",
     "links": {
         "actions": [
         // {
@@ -123,9 +123,9 @@ export default function handler(
   });
 } else if (req.method == 'GET') {
   res.status(200).json({ 
-    "title": "Orb Reading",
-    "icon": "https://shdw-drive.genesysgo.net/G1Tzt42SDqCV3x9vPY5X826foA8fEk8BR4bB5wARh75d/orb2.PNG",
-    "description": "Ask the Orb for answers to your question. Donate SOL to the Orb.",
+    "title": "Predict the world-Cup Winner",
+    "icon": "https://imgs.search.brave.com/Q2LHDzqekfsQW-PUtWUR32VqmITHmxX2XMptGx8xyiY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9j/YXJ0b29uLWNoYXJh/Y3Rlci1wbGF5aW5n/LWNyaWNrZXQtZ2Ft/ZS1maWVsZF8yMy0y/MTUxNTE5MDEyLmpw/Zz9zaXplPTYyNiZl/eHQ9anBn",
+    "description": "Predict the winner of the world cup in this case.",
     "label": "Ask",
     "links": {
         "actions": [
@@ -134,7 +134,7 @@ export default function handler(
         //     "href": "/api/mint"
         // },
         {
-            "label": "Get a Free Fortune", // button text
+            "label": "India", // button text
             "href": "/api/getReading"
         },
         {
