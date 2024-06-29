@@ -189,7 +189,7 @@ function updateCanvasGlow(ctx: CanvasRenderingContext2D, hexagram: LineType[]) {
               <div style={{ width: '100%', display: "flex", flexDirection: 'row', flexWrap: 'wrap', gap: '8px', justifyItems: "justify-between", alignItems: 'center'}}>
                 <p>{ reading.changing.length } changing lines.</p>
                 <p style={{ width: '100%', flexBasis: 1, flexShrink: 1, textWrap: 'nowrap', overflow: 'clip', overflowClipMargin: '12px', overflowClipBox: "padding-box"}}>{reading.advice}...</p>
-                <a href={'https://dial.to/?action=solana-action:https://world-cup-beige.vercel.app/api/actions'} target="_blank" rel="no-referrer">Donate</a>
+                <a href={'https://dial.to/?action=solana-action:https://world-cup-beige.vercel.app/api/actions'} target="_blank" rel="no-referrer">Bet</a>
               </div>
             ) : (
               <p></p>
@@ -203,7 +203,7 @@ function updateCanvasGlow(ctx: CanvasRenderingContext2D, hexagram: LineType[]) {
         { reading ? (
           <div style={{ width: '100%', height: '100%', display: "flex", flexDirection: 'column', justifyItems: 'center', alignItems: 'center'}}>
             <p className={styles.title} style={{ textShadow: `0 0 8px #ffffff, 0 0 45px ${primaryColor}`, textAlign: "center", fontFamily: "Bonsad"}}>{reading.id ? `No.${reading.id}:${reading.chinese_name}` : 'Waiting for Interpretation'}</p>
-            <p className={styles.title} style={{ textShadow: `0 0 8px #ffffff, 0 0 45px ${primaryColor}`, textAlign: "center"}}>{reading ? reading.name : 'Ask the Orb'}</p>
+            <p className={styles.title} style={{ textShadow: `0 0 8px #ffffff, 0 0 45px ${primaryColor}`, textAlign: "center"}}>{reading ? reading.name : 'Predict who will win the world cup!'}</p>
             <div style={{ width: "40%", display: "flex", flexDirection: 'column', justifyItems: 'center', alignItems: 'center', gap: '24px'}}>
             <div>
             {reading.keywords?.map((keyword: String, index: React.Key) => (
