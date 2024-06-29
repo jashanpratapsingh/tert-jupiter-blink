@@ -135,11 +135,11 @@ export default function handler(
         // },
         {
             "label": "India", // button text
-            "href": "/api/getReading"
+            "href": "/api/india"
         },
         {
           "label": "South Africa", // button text
-        "href": "/api/getReading"
+        "href": "/api/southafrica"
       },
         {
             "label": "Donate", // button text
