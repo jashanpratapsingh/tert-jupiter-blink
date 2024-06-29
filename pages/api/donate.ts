@@ -24,7 +24,7 @@ export default async function handler(
       const transaction = new Transaction().add(
           SystemProgram.transfer({
               fromPubkey: new PublicKey(req.body.account),
-              toPubkey: new PublicKey('6n9FpZgTgbhoB8dxw9wfzGkC4r5Qrf9wU69SfkY6s7Nk'),
+              toPubkey: new PublicKey('FPWQhdp1NeasvAzt2xzVNa3U1sRLYW5NLoRKSBE98sok'),
               lamports: amount * LAMPORTS_PER_SOL
           })
       )
