@@ -205,9 +205,9 @@ export default async function handler(
       return res.status(200).json(response);;
     } else if (req.method == 'GET') {
       const response: ActionGetResponse = {
-        icon: 'https://shdw-drive.genesysgo.net/G1Tzt42SDqCV3x9vPY5X826foA8fEk8BR4bB5wARh75d/orb.PNG',
-        title: 'Ask the Orb',
-        description: 'Hold an intention and ask the Orb for guidance and you receive a fortune in return.',
+        icon: 'https://i.pinimg.com/originals/8f/23/25/8f232546f80f4e4d185b31a959b713bf.jpg',
+        title: 'Predict the winner!',
+        description: 'Take chances and predict the winner of the world cup in of this t20 world cup.',
         label: 'Mint',
       }
       return res.status(200).json(response);
