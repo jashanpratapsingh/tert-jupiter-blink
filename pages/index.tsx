@@ -221,7 +221,7 @@ function updateCanvasGlow(ctx: CanvasRenderingContext2D, hexagram: LineType[]) {
             </div>
           </div>
           ): (
-            <p className={styles.title} style={{ textShadow: `0 0 8px #ffffff, 0 0 45px ${primaryColor}`, textAlign: "center", userSelect: "none", padding: '10%'}}>Ask the Orb with intention</p>
+            <p className={styles.title} style={{ textShadow: `0 0 8px #ffffff, 0 0 45px ${primaryColor}`, textAlign: "center", userSelect: "none", padding: '10%'}}>Predict the winner of the world cup!</p>
           )}
             </div>
           {/* <div >
