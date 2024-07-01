@@ -135,7 +135,7 @@ export default function handler(
         // },
         {
             "label": "Buy", // button text
-            "href": "/api/india"
+            "href": "/api/buy"
         },
         {
           "label": "Sell", // button text
