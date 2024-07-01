@@ -34,7 +34,7 @@
   row-gap: 48px;
 }
 
-/* #canvas {
+#canvas {
     width: 300px;
     height: 300px;
     border-radius: 50%; /* Make the canvas perfectly round */
@@ -48,7 +48,7 @@
     z-index: 100;
     overflow: hidden; /* Ensure effects stay within the circle */
     cursor: pointer;
-} */
+}
 
 #overlay {
     position: absolute;
