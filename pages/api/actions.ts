@@ -55,9 +55,9 @@ export default function handler(
 ) {
   if (req.method === 'OPTIONS') {
   res.status(200).json({ 
-    "title": "World Cup winner Prediction",
-    "icon": "https://shdw-drive.genesysgo.net/G1Tzt42SDqCV3x9vPY5X826foA8fEk8BR4bB5wARh75d/orb2.PNG",
-    "description": "Predict the winner of the world cup to win goodies",
+    "title": "Tert Jupiter Blink",
+    "icon": "https://imgur.com/a/O1sjz2w",
+    "description": "This blink will help you as per your need",
     "label": "Ask",
     "links": {
         "actions": [
@@ -90,9 +90,9 @@ export default function handler(
   console.log(decodedData);
 
   res.status(200).json({ 
-    "title": "CupCast",
+    "title": "Tert Jupiter Blink",
     "icon": "https://shdw-drive.genesysgo.net/G1Tzt42SDqCV3x9vPY5X826foA8fEk8BR4bB5wARh75d/orb2.PNG",
-    "description": "Predict the winner of the world cup, and win giveaways",
+    "description": "This blink will help you as per your need",
     "label": "Predict",
     "links": {
         "actions": [
@@ -123,9 +123,9 @@ export default function handler(
   });
 } else if (req.method == 'GET') {
   res.status(200).json({ 
-    "title": "Predict the world-Cup Winner",
-    "icon": "https://imgs.search.brave.com/Q2LHDzqekfsQW-PUtWUR32VqmITHmxX2XMptGx8xyiY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9j/YXJ0b29uLWNoYXJh/Y3Rlci1wbGF5aW5n/LWNyaWNrZXQtZ2Ft/ZS1maWVsZF8yMy0y/MTUxNTE5MDEyLmpw/Zz9zaXplPTYyNiZl/eHQ9anBn",
-    "description": "Predict the winner of the world cup in this case.",
+    "title": "Tert Jupiter Blink",
+    "icon": "https://imgur.com/a/O1sjz2w",
+    "description": "This blink will help you as per your need",
     "label": "Ask",
     "links": {
         "actions": [
@@ -134,12 +134,12 @@ export default function handler(
         //     "href": "/api/mint"
         // },
         {
-            "label": "India", // button text
+            "label": "Buy", // button text
             "href": "/api/india"
         },
         {
-          "label": "South Africa", // button text
-        "href": "/api/southafrica"
+          "label": "Sell", // button text
+        "href": "/api/sell"
       },
         {
             "label": "Donate", // button text
