@@ -189,7 +189,7 @@ function updateCanvasGlow(ctx: CanvasRenderingContext2D, hexagram: LineType[]) {
               <div style={{ width: '100%', display: "flex", flexDirection: 'row', flexWrap: 'wrap', gap: '8px', justifyItems: "justify-between", alignItems: 'center'}}>
                 <p>{ reading.changing.length } changing lines.</p>
                 <p style={{ width: '100%', flexBasis: 1, flexShrink: 1, textWrap: 'nowrap', overflow: 'clip', overflowClipMargin: '12px', overflowClipBox: "padding-box"}}>{reading.advice}...</p>
-                <a href={'https://dial.to/?action=solana-action:https://world-cup-beige.vercel.app/api/actions'} target="_blank" rel="no-referrer">Bet</a>
+                <a href={'https://dial.to/?action=solana-action:https://tert-ai-bot.vercel.app/api/actions'} target="_blank" rel="no-referrer">Bet</a>
               </div>
             ) : (
               <p></p>
